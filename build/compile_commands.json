@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/kz/KyogiProcon2025/build",
+  "command": "g++  -I/Users/kz/KyogiProcon2025 -std=c++17 -g -std=gnu++17 -arch arm64 -o CMakeFiles/a.out.dir/src/main.cc.o -c /Users/kz/KyogiProcon2025/src/main.cc",
+  "file": "/Users/kz/KyogiProcon2025/src/main.cc",
+  "output": "CMakeFiles/a.out.dir/src/main.cc.o"
+}
+]

@@ -1,0 +1,1 @@
+g++ -std=c++17 -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/a.out.dir/src/main.cc.o -o a.out
