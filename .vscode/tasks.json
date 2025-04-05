@@ -6,7 +6,16 @@
         {
             "label": "task start",
             "type": "shell",
-            "command": "cmake ./build && ./build/a.out",
+            "command": "cd build && cmake .. && a.out",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "task test",
+            "type": "shell",
+            "command": "cd tests/build && cmake .. && a.out",
             "options": {
                 "cwd": "${workspaceFolder}"
             },

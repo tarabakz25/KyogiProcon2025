@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#include "lib/json.hh"
+#include "json.hh"
 
 using namespace std;
 typedef long long ll;
