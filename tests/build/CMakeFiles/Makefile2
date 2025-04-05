@@ -63,11 +63,11 @@ CMAKE_BINARY_DIR = /Users/kz/KyogiProcon2025/tests/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/run_tests.dir/all
+all: CMakeFiles/a.out.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/run_tests.dir/codegen
+codegen: CMakeFiles/a.out.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,40 +75,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/run_tests.dir/clean
+clean: CMakeFiles/a.out.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/run_tests.dir
+# Target rules for target CMakeFiles/a.out.dir
 
 # All Build rule for target.
-CMakeFiles/run_tests.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/kz/KyogiProcon2025/tests/build/CMakeFiles --progress-num=1,2 "Built target run_tests"
-.PHONY : CMakeFiles/run_tests.dir/all
+CMakeFiles/a.out.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/kz/KyogiProcon2025/tests/build/CMakeFiles --progress-num=1,2 "Built target a.out"
+.PHONY : CMakeFiles/a.out.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/run_tests.dir/rule: cmake_check_build_system
+CMakeFiles/a.out.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kz/KyogiProcon2025/tests/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run_tests.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/a.out.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kz/KyogiProcon2025/tests/build/CMakeFiles 0
-.PHONY : CMakeFiles/run_tests.dir/rule
+.PHONY : CMakeFiles/a.out.dir/rule
 
 # Convenience name for target.
-run_tests: CMakeFiles/run_tests.dir/rule
-.PHONY : run_tests
+a.out: CMakeFiles/a.out.dir/rule
+.PHONY : a.out
 
 # codegen rule for target.
-CMakeFiles/run_tests.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/kz/KyogiProcon2025/tests/build/CMakeFiles --progress-num=1,2 "Finished codegen for target run_tests"
-.PHONY : CMakeFiles/run_tests.dir/codegen
+CMakeFiles/a.out.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/kz/KyogiProcon2025/tests/build/CMakeFiles --progress-num=1,2 "Finished codegen for target a.out"
+.PHONY : CMakeFiles/a.out.dir/codegen
 
 # clean rule for target.
-CMakeFiles/run_tests.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/clean
-.PHONY : CMakeFiles/run_tests.dir/clean
+CMakeFiles/a.out.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/clean
+.PHONY : CMakeFiles/a.out.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

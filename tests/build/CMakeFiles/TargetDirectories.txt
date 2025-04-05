@@ -1,3 +1,3 @@
-/Users/kz/KyogiProcon2025/tests/build/CMakeFiles/run_tests.dir
+/Users/kz/KyogiProcon2025/tests/build/CMakeFiles/a.out.dir
 /Users/kz/KyogiProcon2025/tests/build/CMakeFiles/edit_cache.dir
 /Users/kz/KyogiProcon2025/tests/build/CMakeFiles/rebuild_cache.dir
