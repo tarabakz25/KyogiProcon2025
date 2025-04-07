@@ -11,7 +11,6 @@ using json = nlohmann::json;
 #define REP2(i, s, n) for (int i = (s); i < (int)(n); i++)
 #define REPD(i, n) for (int i = n - 1; i >= 0; i--)
 
-
 int main() {
     // Json読み込み
     ifstream ifs("../data/problem.json");
@@ -29,5 +28,9 @@ int main() {
         }
         cout << endl;
     }
+
+    write_answer(answers);
+
+    return 0;
 }
 
