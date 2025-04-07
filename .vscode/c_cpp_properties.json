@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/homebrew/include/",
+                "/usr/bin/",
+                "/Users/kz/KyogiProcon2025/"
+            ]
+        }
+    ],
+    "version": 4
+}

@@ -6,7 +6,7 @@
         {
             "label": "task start",
             "type": "shell",
-            "command": "cd build && cmake .. && a.out",
+            "command": "cd build && cmake --build . && ./a.out",
             "options": {
                 "cwd": "${workspaceFolder}"
             },
