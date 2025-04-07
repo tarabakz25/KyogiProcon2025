@@ -21,7 +21,7 @@ int main() {
     vector<vector<int>> field;
     loadField(J, field);
 
-    vector<vector<int>> rotated_field = rotate(field, 0, 0, 4);
+    vector<vector<int>> rotated_field = rotate(field, 0, 0, 3);
     REP(i, 4) {
         REP(j, 4) {
             cout << rotated_field[i][j] << " ";

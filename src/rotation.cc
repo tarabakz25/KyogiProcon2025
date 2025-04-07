@@ -17,10 +17,8 @@ json answers = json::array();
 vector<vector<int>> rotate(vector<vector<int>> field, int origin_i, int origin_j, int field_size) {
     int h = field.size();
     int w = field[0].size();
-    
-    if(field_size % 2 == 1) field_size --;
 
-    vector<vector<int>> temp_field(field_size, vector<int>(field_size));
+    vector<vector<int>> temp_field = field;
 
     REP(i, field_size) {
         REP(j, field_size) {
