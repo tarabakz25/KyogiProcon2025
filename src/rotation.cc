@@ -14,7 +14,7 @@ struct Answer {
 };
 json answers = json::array();
 
-vector<vector<int>> rotate(vector<vector<int>> field, int origin_i, int origin_j, int field_size) {
+void rotate(vector<vector<int>> field, int origin_i, int origin_j, int field_size) {
     int h = field.size();
     int w = field[0].size();
 
@@ -31,8 +31,6 @@ vector<vector<int>> rotate(vector<vector<int>> field, int origin_i, int origin_j
     answer["y"] = origin_j;
     answer["n"] = field_size;
     answers.push_back(answer);
-
-    return temp_field;
 }
 
 void write_answer(json answers) {
